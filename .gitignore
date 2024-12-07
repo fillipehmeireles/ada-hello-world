@@ -1,0 +1,39 @@
+/obj/
+/bin/
+/alire/
+/config/
+
+# Alire build and temporary files
+_build/
+*.ali
+*.o
+*.exe
+*.dll
+*.dylib
+*.so
+
+# Alire configuration and dependency cache
+alire.toml
+alr_cache/
+
+# Common IDE and editor temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.~*
+
+# GNAT Studio project files
+*.gpr.generated
+*.b~   # GNAT Studio backup files
+*.err  # Error logs
+*.dbg  # Debug files
+*.lst  # List files
+
+# Generated documentation
+doc/
+
+# Miscellaneous OS files
+.DS_Store        # macOS metadata
+Thumbs.db        # Windows metadata
+
